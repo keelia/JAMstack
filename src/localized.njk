@@ -1,0 +1,28 @@
+---
+title: Daily Beifing
+layout: base.njk
+pagination:
+  data: news
+  size: 1
+  alias: newsItem
+permalink: /{{ newsItem.country }}/index.html
+---
+
+<div class="container">
+  <h1>This is a page for you</h1>
+  <div class="vibe">you are great!</div>
+  <div class="love">❤️</div>
+  <ul>
+    {% for article in newsItem.articles %}
+      <li>
+        <h2>
+          <a href="{{article.url}}">{{ article.title }}</a>
+        </h2>
+        <span>
+          {{article.source.name}} - <time>{{article.publishedAt}}</time>
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+<script src="./js/vibe.js"></script>
