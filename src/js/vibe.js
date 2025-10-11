@@ -1,3 +1,5 @@
+//client-side JS will run on Browser
+
 const vibes = [
   '...and you are awesome!',
   '...have a wonderful day!',

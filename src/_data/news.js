@@ -1,4 +1,4 @@
-//we are in server side
+//server side JS will run on Build Time
 const axios = require('axios');
 require('dotenv').config();
 
