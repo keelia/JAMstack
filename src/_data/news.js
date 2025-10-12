@@ -15,6 +15,10 @@ async function getNews(country) {
     };
   } catch (error) {
     console.error(error);
+    return {
+      country,
+      articles: [],
+    };
   }
 }
 
