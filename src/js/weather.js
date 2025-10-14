@@ -1,6 +1,7 @@
 function success(pos) {
   const crd = pos.coords;
 
+  const API_KEY = 'WEATHER_API_KEY';
   const url = `https://api.openweathermap.org/data/2.5/weather?lat=${crd.latitude}&lon=${crd.longitude}&appid=${API_KEY}&units=metric`;
 
   fetch(url)
