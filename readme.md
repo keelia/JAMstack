@@ -1,4 +1,4 @@
-# JAMstack Study Notes
+# 📘 JAMstack Study Notes
 
 ## What is JAMstack
 
