@@ -187,11 +187,11 @@ It replaces traditional server-rendered systems with **build automation, CDN hos
 
 ### JAMstack Architecture Diagram
 
-![Architecture Diagram](/3&4&5-build-with-ssg/jamstack.png)
+![Architecture Diagram](/jamstack.png)
 
 ### JAMstack EcoSystem
 
-![JAMstack EcoSystem](/3&4&5-build-with-ssg/jamstackEcoSystem.png)
+![JAMstack EcoSystem](/jamstackEcoSystem.png)
 
 ## Questions
 
