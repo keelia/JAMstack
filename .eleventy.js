@@ -7,7 +7,6 @@ module.exports = function (config) {
     },
   });
   config.ignores.add('src/_deprecated_index.njk');
-  config.ignores.add('readme.md');
   config.addPassthroughCopy('src/js');
   return {
     dir: {

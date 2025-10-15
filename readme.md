@@ -185,6 +185,14 @@ JAMstack = a modern web architecture focusing on:
 
 It replaces traditional server-rendered systems with **build automation, CDN hosting, and decoupled APIs.**
 
+### JAMstack Architecture Diagram
+
+![Architecture Diagram](/3&4&5-build-with-ssg/jamstack.png)
+
+### JAMstack EcoSystem
+
+![JAMstack EcoSystem](/3&4&5-build-with-ssg/jamstackEcoSystem.png)
+
 ## Questions
 
 | #   | Question                                        | Correct Answer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
