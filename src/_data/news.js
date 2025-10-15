@@ -2,7 +2,7 @@
 const axios = require('axios');
 const countries = require('./countries.json');
 
-require('dotenv').config();
+require('dotenv').config(); //build time script(eleventy) needs dotenv to load a local .env
 
 async function getNews(country) {
   try {

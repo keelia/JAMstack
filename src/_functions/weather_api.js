@@ -1,5 +1,5 @@
 const axios = require('axios');
-
+//Don't need dotenv. Since deployed (or netlify dev simulated) function already receives populated process.env.
 exports.handler = async function (event, context) {
   const data = await getWeather(event.queryStringParameters);
   // your server-side functionality
