@@ -14,7 +14,6 @@ async function getNews(country) {
       articles: response.data.articles,
     };
   } catch (error) {
-    console.error(error);
     return {
       country,
       articles: [],
@@ -25,7 +24,6 @@ async function getNews(country) {
 module.exports = async function () {
   const newPromises = countries.map(getNews);
   return Promise.all(newPromises).then((newsByCountries) => {
-    console.log('newsByCountries:', newsByCountries);
     return Array.prototype.concat.apply([], newsByCountries);
   });
 };
