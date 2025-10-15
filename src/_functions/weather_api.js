@@ -1,8 +1,7 @@
 const axios = require('axios');
-// require('dotenv').config();
 
 exports.handler = async function (event, context) {
-  const data = getWeather(event.queryStringParameters);
+  const data = await getWeather(event.queryStringParameters);
   // your server-side functionality
   return {
     statusCode: 200,
